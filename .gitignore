@@ -1,4 +1,6 @@
 _site
+_assets/images/**/*.*
+.env
 .sass-cache
 .asset-cache
 .jekyll-metadata
