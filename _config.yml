@@ -7,18 +7,24 @@
 
 # Site settings
 title: Julian Cheal
-email: hello@julian.cheal.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/words" # the subpath of your site, e.g. /blog
+
 url: "http://juliancheal.co.uk" # the base hostname & protocol for your site
+baseurl: "/words" # the subpath of your site, e.g. /blog
+sources:
+    - _assets/images
+
+# Social
+email: hello@julian.cheal.co.uk
 twitter_username: juliancheal
 github_username:  juliancheal
 
+
 # Plugins
-gems: [mm-jekyll-prism, rouge, jekyll-watch, redcarpet]
+gems: [mm-jekyll-prism, rouge, jekyll-watch, jekyll-assets, redcarpet]
 
 # Build settings
 markdown: kramdown

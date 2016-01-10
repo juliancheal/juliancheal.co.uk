@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem 'redcarpet'
   gem 'jekyll-compose'
   gem 'jekyll-watch'
+  gem 'jekyll-assets'
   gem 'rake-jekyll'
   gem 'kramdown'
 end
