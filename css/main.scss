@@ -3,10 +3,24 @@
 ---
 @charset "utf-8";
 
+@font-face {
+	font-family: 'IM Fell English';
+	src: local('IM FELL English Roman'), local('IM_FELL_English_Roman'), url(http://themes.googleusercontent.com/static/fonts/imfellenglish/v3/xwIisCqGFi8pff-oa9uSVCLHKJuu6uDU1VgRUl2Dqww.woff) format('woff');
+}
 
+@font-face {
+	font-family: 'IM Fell English';
+	font-style: italic;
+	src: local('IM FELL English Italic'), local('IM_FELL_English_Italic'), url(http://themes.googleusercontent.com/static/fonts/imfellenglish/v3/Z3cnIAI_L3XTRfz4JuZKbp3BpQU8opE6p3S8I9UDCT8.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'IM Fell English SC';
+	src: local('IM FELL English SC'), local('IM_FELL_English_SC'), url(http://themes.googleusercontent.com/static/fonts/imfellenglishsc/v3/h3Tn6yWfw4b5qaLD1RWvz1NITcQXGZNmPdSry0X2sgA.woff) format('woff');
+}
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'IM Fell English', 'Palatino Linotype', Palatino, serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,7 +30,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      hsl(200, 25%, 70%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -27,8 +41,6 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -43,11 +55,7 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
-;
+        "layout";

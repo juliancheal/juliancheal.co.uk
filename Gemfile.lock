@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorator (0.1)
+    ffi (1.9.10)
+    jekyll (3.0.1)
+      colorator (~> 0.1)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.1)
+      kramdown (~> 1.3)
+      liquid (~> 3.0)
+      mercenary (~> 0.3.3)
+      rouge (~> 1.7)
+      safe_yaml (~> 1.0)
+    jekyll-compose (0.4.1)
+      jekyll (>= 2.5.0)
+    jekyll-sass-converter (1.4.0)
+      sass (~> 3.4)
+    jekyll-watch (1.3.0)
+      listen (~> 3.0)
+    kramdown (1.9.0)
+    liquid (3.0.6)
+    listen (3.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    mercenary (0.3.5)
+    mm-jekyll-prism (0.0.2)
+    rake (10.4.2)
+    rake-jekyll (1.1.0)
+      rake (~> 10.0)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.4)
+      ffi (>= 0.5.0)
+    redcarpet (3.3.4)
+    rouge (1.10.1)
+    safe_yaml (1.0.4)
+    sass (3.4.20)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-compose
+  jekyll-watch
+  kramdown
+  mm-jekyll-prism
+  rake-jekyll
+  redcarpet
+  rouge
+
+BUNDLED WITH
+   1.10.6
