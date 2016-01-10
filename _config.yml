@@ -26,3 +26,5 @@ markdown: kramdown
 input: GFM
 
 permalink: /:categories/:title/
+
+exclude: ["CNAME", "Rakefile", "README.md", "Gemfile", "Gemfile.lock"]
