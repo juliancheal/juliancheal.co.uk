@@ -27,4 +27,4 @@ input: GFM
 
 permalink: /:categories/:title/
 
-exclude: ["CNAME", "Rakefile", "README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["CNAME", "Rakefile", "README.md", "LICENSE", "Gemfile", "Gemfile.lock"]
