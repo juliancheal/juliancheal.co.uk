@@ -1,3 +1,15 @@
+License
+
+The following directories and their contents are Copyright Julian Cheal
+You may not reuse anything therein without my permission:
+
+_posts/
+images/
+
+Based on HTML and CSS from https://github.com/jekyll/jekyll
+
+All other directories and files are MIT Licensed.
+
 The MIT License (MIT)
 
 Copyright (c) 2016-∞ Julian Cheal
