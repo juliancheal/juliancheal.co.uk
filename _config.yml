@@ -14,6 +14,8 @@ description: > # this means to ignore newlines until "baseurl:"
 
 url: "http://juliancheal.co.uk" # the base hostname & protocol for your site
 baseurl: "/words" # the subpath of your site, e.g. /blog
+# cdn: 'https://s3-us-west-2.amazonaws.com/juliancheal.co.uk'
+prefix: "/"
 sources:
     - _assets/images
 
@@ -21,10 +23,6 @@ sources:
 email: hello@julian.cheal.co.uk
 twitter_username: juliancheal
 github_username:  juliancheal
-
-
-# Plugins
-gems: [mm-jekyll-prism, rouge, jekyll-watch, jekyll-assets, redcarpet]
 
 # Build settings
 markdown: kramdown
