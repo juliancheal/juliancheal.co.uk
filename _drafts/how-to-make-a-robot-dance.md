@@ -31,11 +31,16 @@ Or skip to one I prepared earlier.<link to Here's one I prepared earlier section
 Point your git client de jour at `github.com/juliancheal/dancingrobots.git`. Once cloned `cd` into the folder.
 Running `bundle install` should hopefully get you set up with all the dependencies[6]
 While that's bundle installing, plug in your `dancemat` to your computers `usb`.[7]
+
 Now connect your computer to your drone's wifi hotspot. Hopefully you called your drone something rad like, `Sherlock Drone` or `Amilea Droneheart`.
+
 Fire up those engines! Well run `ruby zomg_dancing_robot.rb`
+
 Fingers crossed nothing dramatic should have happened yet. I assume your `terminal` is telling you to `Get Ready to Dance`? Yes? Good.
+
 Now press the `start` button with your foot. (Did I mention it's probably best to do this either barefoot or in socks?).
 *wurrrr* goes the drone's engines as it majestically rises into the air. *Womp* *Womp* goes your song. Now let the fun begin.
+
 You'll notice I didn't tell you the controls until the drone was already flying, and if you really are literally doing one step at a time, you'll have fun reading the controls while dancing!
 It's pretty simples really.
 
