@@ -13,7 +13,7 @@ However it's a widely know fact[1], that most robots actually have a favourite g
 Beat is an important word in that paragraph, but we'll leave that for another day. TODO: Maybe write about beat controlled robots in a another post.
 
 # Recipe
-To get a robot to dance one requires a certain je ne se qu. Once you find out what it is, you'll then need the following ingredients.
+To get a robot to dance one requires a certain je ne sais quoi. Once you find out what it is, you'll then need the following ingredients.
 
 ## Ingredients
 * A robot to dance[3]
